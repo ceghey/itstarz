@@ -10,7 +10,7 @@ import feedparser
 from time import sleep
 last_updated = ""
 last_published = ""
-AUTHOR="Daria Zvedeninova"
+AUTHOR="Daria  Zvedeninova"
 while True :
     d = feedparser.parse("http://itstarz.disqus.com/it_starz_55/latest.rss")
     if d.feed.updated > last_updated :
